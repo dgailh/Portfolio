@@ -1,0 +1,94 @@
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      footer{
+        flex-wrap: wrap;
+      }
+
+      .box {
+        width: 100%;
+      }
+
+      .games{
+        width: 100%;
+      }
+
+      @media screen and (min-width: 350px) { /* galaxy S5 */
+        img {
+          margin-right: 90%; 
+          margin-left:10%;
+        }
+
+        footer,.container{
+          margin-left: 10px;
+        }
+
+        .games{
+          width: 300px;
+        }
+      }
+
+      @media screen and (min-width: 750px) { /* ipad */
+        .header_div, .logo_div {
+          width: 50%;
+        }
+
+        .game_one_div, .game_three_div, .game_two_div {
+          margin-left:  5%;
+          width:40%;
+          margin-right: auto;
+        }
+
+        footer,.container{
+          margin-left: 10px;
+        }
+
+        .logo{
+          margin-top: 10px;
+        }
+        
+        .games{
+          width: 300px;
+        }
+
+        .center{
+          display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        }
+      }
+
+      @media screen and (min-width: 800px) { /* big screen */
+                .header_div, .logo_div {
+          width: 50%;
+        }
+
+        footer,.container {
+          width: 800px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .logo{
+          margin-top: 10px;
+        }
+
+        .games{
+          width: 800px;
+        }
+
+        .game_one_div, .game_three_div, .game_two_div {
+          margin-left:  3%;
+          width:30%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .center{
+          display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        }
+      }
