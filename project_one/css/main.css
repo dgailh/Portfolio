@@ -1,81 +1,69 @@
-      @import url(https://fonts.googleapis.com/css?family=Roboto);
+            @import url(https://fonts.googleapis.com/css?family=Roboto);
       html, body {
         margin: 0;
         padding: 0;
-        background-color: #7d97ad;  
+        background-color: #7d97ad;
       }
-
-         {
+        {
         font-family: 'Roboto', sans-serif;
       }
-
       h1 {
         font-size: 20px;
       }
-
       h2 {
         font-size: 15px;
       }
-
       p {
-        text-align:center;
+        text-align: center;
         padding-bottom: 1px;
       }
-
       .center {
         display: block;
         margin-left: auto;
-        margin-right: auto; 
+        margin-right: auto;
       }
-
+      .games_image{
+        height: 50px;
+        width: 50px;
+      }
       .title {
         font-size: 2.5em;
         text-align: center;
       }
-
-      .medias{
+      .medias {
         display: inline-block;
         margin-left: 40px;
       }
-
-      .one_media{
+      .one_media {
         display: inline-block;
         margin-left: 5px;
       }
-
       box {
         min-height: 100px;
       }
-
       .header_div {
         background-color: #7d97ad;
         color: #efefef;
       }
-
       .logo_div {
         background-color: #7d97ad;
       }
-      .logo{
+      .logo {
         border-radius: 50%;
       }
-
       .paragraph_div {
         text-align: left;
         background-color: #7d97ad;
       }
-
       .game_two_div {
         background-color: #7d97ad;
       }
-
       .game_three_div {
         background-color: #7d97ad;
       }
-
       .fav_game_div {
         background-color: #7d97ad;
       }
-
       .game_one_div {
         background-color: #7d97ad;
       }
